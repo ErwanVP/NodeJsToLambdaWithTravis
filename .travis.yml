@@ -8,7 +8,7 @@ node_js:
 # command to install dependencies
 
 # command to run tests
-npm test
+node index.js
 
 deploy:
   provider: lambda

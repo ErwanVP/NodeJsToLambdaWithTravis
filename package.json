@@ -6,8 +6,5 @@
   },
   "description": "Simple nodejs project to test travis",
   "author": "https://github.com/ErwanVP",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "./node_modules/jshint/bin/jshint index.js"
-  }
+  "version": "1.0.0"
 }

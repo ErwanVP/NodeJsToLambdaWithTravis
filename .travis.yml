@@ -12,8 +12,9 @@ node_js:
 
 deploy:
   provider: lambda
-  function_name: "$FONCTION_NAME"
-  role: "$ROLE_NAME"
-  handler_name: "index.py"
-  access_key_id: "$AWS_ACCESS_KEY"
-  secret_access_key: "$AWS_SECRET_ACCESS"
+  function_name: "$function"
+  role: "$role"
+  region: "eu-west-1"
+  handler_name: "handle"
+  access_key_id: "$key_id"
+  secret_access_key: "$secret_key"
